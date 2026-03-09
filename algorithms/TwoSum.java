@@ -43,7 +43,7 @@ public class TwoSum {
         System.out.println("Test 2: [" + result2[0] + ", " + result2[1] + "]");
 
         // Test case 3
-        int[] nums3 = {3, 3};
+        int[] nums3 = {0, 1, 2, 3, 4, 5, 6};
         int target3 = 6;
         int[] result3 = solution.twoSum(nums3, target3);
         System.out.println("Test 3: [" + result3[0] + ", " + result3[1] + "]");
