@@ -1,6 +1,6 @@
 /*Valid Parentheses
-Một chuỗi chỉ chứa các ký tự '(', ')', '{', '}', '[', ']'.
-true nếu chuỗi hợp lệ, false nếu không.
+Input: Một chuỗi chỉ chứa các ký tự '(', ')', '{', '}', '[', ']'.
+Output: true nếu chuỗi hợp lệ, false nếu không.
 Ngoặc mở phải đóng cùng loại, đúng thứ tự.
 */
 import java.util.Stack;

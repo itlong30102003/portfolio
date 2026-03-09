@@ -1,8 +1,8 @@
 import java.util.HashMap;
 import java.util.Map;
 
-/*  Một mảng các số nguyên nums và một số nguyên target
-    Trả về chỉ số  (index) của hai số sao cho tổng của chúng bằng target
+/*  Input: Một mảng các số nguyên nums và một số nguyên target
+    Output: Trả về chỉ số  (index) của hai số sao cho tổng của chúng bằng target
     Chỉ có một đáp án duy nhất
     Không được sử dụng cùng một phần tử hai lần
 */
@@ -28,7 +28,7 @@ class Solution {
 
 public class TwoSum {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        LinkedListCycle solution = new LinkedListCycle();
 
         // Test case 1
         int[] nums1 = {2, 7, 11, 15};
